@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#C8113367</color>
+    <color name="pink">#E91E63</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Theatre</string>
+    <string name="default_web_client_id" translatable="false">521630064128-ag3p730llp9uereia3cnk2f1ir1nqrn5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">521630064128</string>
+    <string name="google_api_key" translatable="false">AIzaSyBvyNqSxR8I0nUKUtCsaqfNiPqWi8rdMDk</string>
+    <string name="google_app_id" translatable="false">1:521630064128:android:11c925bbb59e09583982e5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBvyNqSxR8I0nUKUtCsaqfNiPqWi8rdMDk</string>
+    <string name="google_storage_bucket" translatable="false">theatreapp-b25ef.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">theatreapp-b25ef</string>
+    <style name="Theme.TheatreApp" parent="Theme.AppCompat.Light.NoActionBar">
+
+        
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">521630064128-ag3p730llp9uereia3cnk2f1ir1nqrn5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">521630064128</string>
+    <string name="google_api_key" translatable="false">AIzaSyBvyNqSxR8I0nUKUtCsaqfNiPqWi8rdMDk</string>
+    <string name="google_app_id" translatable="false">1:521630064128:android:11c925bbb59e09583982e5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBvyNqSxR8I0nUKUtCsaqfNiPqWi8rdMDk</string>
+    <string name="google_storage_bucket" translatable="false">theatreapp-b25ef.appspot.com</string>
+    <string name="project_id" translatable="false">theatreapp-b25ef</string>
+</resources>

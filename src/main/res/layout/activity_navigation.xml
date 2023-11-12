@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F44336"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <ImageView
+            android:id="@+id/imageMoreInfo"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/more_inf0_24"
+            />
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/theatre_logo"
+            android:contentDescription="Logo"
+            />
+
+        <ImageView
+            android:id="@+id/imageLogOut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/logout2"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/twTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Srpsko narodno pozoriste"
+        android:textSize="18dp"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:id="@+id/btnEvents"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="Predstave"
+            />
+
+        <Button
+            android:id="@+id/btnActors"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="Glumci"
+            />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="O pozoristu"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#F44336"
+        />
+
+
+</LinearLayout>
+
+
